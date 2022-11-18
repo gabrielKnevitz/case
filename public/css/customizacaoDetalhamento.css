@@ -1,0 +1,87 @@
+nav{
+    background-color: #FF8806;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+img{
+    width: 25%;
+    border-radius: 5px;
+}
+.table{
+    margin-top: 5%;
+    width: 80%;
+    text-align: center;
+    margin-left: 5%;
+}
+table td{
+    border:none !important;
+}
+button{
+    width: 20%;
+    height: 70px;
+}
+.butns{
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+.efeito{
+border: none;
+color: #ffffff;
+padding: 20px;
+margin: 10px;
+font-size: 24px;
+line-height: 24px;
+border-radius: 10px;
+position: relative;
+box-sizing: border-box;
+cursor: pointer;
+transition: all 400ms ease;
+}
+.botao{
+    background-color: #FF8806;
+    color: #ffffff;
+    transform-style: preserve-3d;
+}
+.botao::after{
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background: #000000;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.like::after{
+    content: "like";
+}
+.orgulho::after{
+    content: "orgulho";
+}
+.Excelente::after{
+    content: "Excelente trabalho";
+}
+.colaboracao::after{
+    content: "colaboração";
+}
+
+.botao:hover{
+transform-origin: center bottom;
+transform: rotateX(-90deg) translateY(100%);
+}
+svg{
+    color: #ffffff;
+    width: 20%;
+}
+h1{
+    margin-top: 2%;
+    color: #ffffff;  
+    background-color: #FF8806;
+    text-shadow: #0000008a -4px 2px;
+    border-radius: 18px;
+}

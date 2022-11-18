@@ -1,0 +1,15 @@
+nav{
+    background-color: #FF8806;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+img{
+    width: 50%;
+    border-radius: 5px;
+}
+
+a{
+    color: #000000;
+}
